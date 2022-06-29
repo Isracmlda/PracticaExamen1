@@ -1,0 +1,173 @@
+/*Aplica a todo*/
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+/*Block*/
+  article, aside, figure, footer, header, hgroup, nav, section { 
+    display:block;
+  }
+
+/*Aplica a todo el Body*/
+body { 
+    font: normal .8em arial, sans-serif;
+    background: url(../images/background.jpg) top left;
+    background-position: bottom;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 90vh;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+  }
+  
+    header #logo span
+    {
+        font-weight: bold;
+        font-size: 15px;
+    
+    }
+    
+    header #logo h1
+    {
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: -1px;
+        
+    }
+    
+    header #logo sup{
+        color: #fce2ca;
+    }
+    
+    header #logo
+    {
+        float: left;
+        background: #000000 ;
+        height: 170px;
+        color: #fff;
+        text-align: center;
+        
+    
+    }
+
+    nav {
+        background-color: #ff0505;
+      }
+     
+      nav .nav-item .nav-link {
+        color: #fff;
+        font-size: 16px;
+        line-height: 19px;
+      }
+      .navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+      }
+      .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        background: #000000
+      }
+      .navbar-dark .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+      }
+      .navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      }
+
+      @media (min-width: 992px) {
+        .container  {
+            max-width: 850px;
+        }
+        nav .nav-item {
+          margin-right: 25px;
+        }
+        .imgBorder {
+          border: 1px solid #ccc;
+          max-width: 100%;
+        }
+      }
+
+      h3 {
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+        letter-spacing: -1px;
+        background: url(../img/a22.gif) bottom repeat-x;
+        padding: 0px 0px 10px 15px;
+        margin-bottom: 20px;
+      }
+
+      .header h3{
+        background-color: #ff05054f;
+        border-radius: 5px;
+
+      }
+      .header{
+        padding-top: 10px;
+      }
+      .contentImg {
+        max-width: 235px;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      article {
+        padding: 0 15px;
+      }
+      .articleList {
+        padding-left: 30px;
+      }
+      .articleList li {
+        padding-left: 5px;
+      }
+      .asidesContainer {
+        padding:10px;
+      }
+      .asidesContainer aside {
+        background-color: rgba(238, 238, 238, 0.504);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 0 0 20px ;
+      }
+      .asidesContainer aside h3 {
+        margin:0;
+        color:#000000;
+        text-align: center;
+      }
+      
+      .asidesContainer aside a {
+        color: #ff0000;
+        text-decoration: underline;
+      }
+      .asidesContainer aside .content {
+        padding: 10px 0 0;
+        color:#000000;
+      }
+      .avatar {
+        margin-bottom: 10px;
+      }
+      .linkList {
+        list-style: none;
+        padding: 0;
+      }
+      ul.linkList li {
+        padding-top: 5px;
+        margin: 5px 0px 0px 0px;
+      }
+  footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top:auto;
+    
+    
+  }
+
